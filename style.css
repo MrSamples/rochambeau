@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    background-color: #3882f6;
+}
+
+button {
+    font-weight: bold;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: none;
+    cursor: pointer;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
+    padding-left: 4%;
+    padding-bottom: 5%;
+}
+
+.rock, .paper, .scissors {
+    font-size: 48px;
+}
+
+.play-again {
+    font-size: 38px;
+    visibility: hidden;
+}
+
+.result, .score, .winner, .cpu-choice {
+    padding-bottom: 16px;
+    font-size: 34px;
+    color: #f9faf8;
+}
+
+.result {
+    padding-top: 4%;
+    color: #f6e938;
+}
+
+.score {
+    font-weight: bold;
+}
+
+.cpu-choice {
+    position: absolute;
+    bottom: 16px;
+    left: 0;
+    right: 0;
+}
+
+.arst {
+    color: #adf638;
+}
