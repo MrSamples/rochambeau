@@ -61,3 +61,19 @@ button {
 .arst {
     color: #adf638;
 }
+
+.code {
+    font-family: sans-serif;
+    font-size: 13px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: auto;
+    left: auto;
+    text-decoration: none;
+    background: #ffffff;
+    color: #3882f6;
+    border: none;
+    border-radius: 2px;
+    padding: 2px;
+}
